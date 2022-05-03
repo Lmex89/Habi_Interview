@@ -84,3 +84,16 @@ repetirse
 Para correr el proyecto se necesita el siguiente commando:
 
 python manage.py runserver
+
+IMPORTANTE:
+
+Cabe aclarar que la manera de como se abordo y se soluciono este ejercicio, 
+no es la manera que me hubiera gustado resolver lo , puesto que uno de los requirementos
+era no utilizar el ORM para realizar las queries, entonces se desarrollo una pequeña
+funcion para concatenar el SQL y luego compilarla directo a la BD, para que se pueda 
+ver como se realzian las consultas en la BD.
+
+Este ejercicio en Django RestFramework, es algo muy comun de resolver, aunque creo que 
+si existe una sobrecarga en las consultas, pero es posible visualizar la manera en como el ORM
+ejecuta dichas consultas.
+
