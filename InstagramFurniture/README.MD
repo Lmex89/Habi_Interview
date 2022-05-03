@@ -79,3 +79,8 @@ se pueda obtener a que inmueble se puede hacer hacer me gusta ...
 Alterando la tabla para que se cree un unique_together de tal menera que un 
 usuario registrado solo pueda darle me gusta a un unico inmuble y este no pueda
 repetirse 
+
+
+Para correr el proyecto se necesita el siguiente commando:
+
+python manage.py runserver
